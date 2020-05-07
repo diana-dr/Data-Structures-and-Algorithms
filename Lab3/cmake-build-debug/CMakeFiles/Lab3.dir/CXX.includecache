@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dianadragos/Desktop/DSA/Lab3/DLL.h
+exception
+-
+iostream
+-
+
+/Users/dianadragos/Desktop/DSA/Lab3/ExtendedTest.h
+
+/Users/dianadragos/Desktop/DSA/Lab3/IndexedList.h
+iostream
+-
+DLL.h
+/Users/dianadragos/Desktop/DSA/Lab3/DLL.h
+
+/Users/dianadragos/Desktop/DSA/Lab3/ListIterator.h
+IndexedList.h
+/Users/dianadragos/Desktop/DSA/Lab3/IndexedList.h
+
+/Users/dianadragos/Desktop/DSA/Lab3/ShortTest.h
+
+/Users/dianadragos/Desktop/DSA/Lab3/main.cpp
+iostream
+-
+ExtendedTest.h
+/Users/dianadragos/Desktop/DSA/Lab3/ExtendedTest.h
+ShortTest.h
+/Users/dianadragos/Desktop/DSA/Lab3/ShortTest.h
+ListIterator.h
+/Users/dianadragos/Desktop/DSA/Lab3/ListIterator.h
+

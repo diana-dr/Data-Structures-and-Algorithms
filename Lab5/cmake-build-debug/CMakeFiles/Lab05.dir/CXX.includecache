@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dianadragos/Desktop/DSA/Lab05/P2.cpp
+P2.h
+/Users/dianadragos/Desktop/DSA/Lab05/P2.h
+iostream
+-
+
+/Users/dianadragos/Desktop/DSA/Lab05/P2.h
+vector
+-
+heap.h
+/Users/dianadragos/Desktop/DSA/Lab05/heap.h
+
+/Users/dianadragos/Desktop/DSA/Lab05/TestP2.cpp
+TestP2.h
+/Users/dianadragos/Desktop/DSA/Lab05/TestP2.h
+P2.h
+/Users/dianadragos/Desktop/DSA/Lab05/P2.h
+vector
+-
+algorithm
+-
+assert.h
+-
+iostream
+-
+
+/Users/dianadragos/Desktop/DSA/Lab05/TestP2.h
+
+/Users/dianadragos/Desktop/DSA/Lab05/heap.cpp
+heap.h
+/Users/dianadragos/Desktop/DSA/Lab05/heap.h
+iostream
+-
+
+/Users/dianadragos/Desktop/DSA/Lab05/heap.h
+iostream
+-
+
